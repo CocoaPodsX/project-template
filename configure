@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+$current_dir = File.dirname(File.expand_path(__FILE__))
+Dir[File.join($current_dir, "install.rb")].each do |file|
+    require_relative(file)
+end
+
+template_url = ARGV.shift
+target_url = ARGV.shift
+project_name = ARGV.shift
+
+Pod::Extension::TemplateConfigurator::new(template_url, target_url, project_name).run

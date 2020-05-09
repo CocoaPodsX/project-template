@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+# source 'git@github.com' do
+#     pod 'Masonry', :group => 'SnapKit'#, :git => 'Masonry.git'
+#     pod 'AFNetworking'#, :group => 'AFNetworking', :git => 'AFNetworking.git'
+# end
+
+# source 'https://github.com' do
+#     pod 'Masonry', :group => 'SnapKit'#, :git => 'Masonry.git'
+#     pod 'AFNetworking'#, :group => 'AFNetworking', :git => 'AFNetworking.git'
+# end

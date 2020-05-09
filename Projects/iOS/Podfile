@@ -1,0 +1,35 @@
+platform :ios, '9.0'
+
+use_frameworks!
+install! 'cocoapods', :generate_multiple_pod_projects => true
+
+workspace '_Template_Project0x07'
+
+def framework_dependencies
+
+end
+
+def example_dependencies
+
+end
+
+def tests_dependencies
+
+end
+
+target '_Template_Project0x07 iOS' do
+    project '_Template_Project0x07'
+    framework_dependencies
+end
+
+target 'Example iOS' do
+    project 'Examples/Examples'
+    framework_dependencies
+    example_dependencies
+end
+
+target 'Tests iOS' do
+    project '_Template_Project0x07'
+    framework_dependencies
+    tests_dependencies
+end

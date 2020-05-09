@@ -1,0 +1,6 @@
+framework module _Template_Project0x07 {
+  umbrella header "_Template_Project0x07.h"
+
+  export *
+  module * { export * }
+}
